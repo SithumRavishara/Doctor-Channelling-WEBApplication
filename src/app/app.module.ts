@@ -8,6 +8,8 @@ import { DashboardComponent } from './view/dashboard/dashboard.component';
 import { RouterModule, Routes} from '@angular/router';
 import { HttpClientModule} from '@angular/common/http';
 import { FormsModule} from '@angular/forms';
+import { AboutUsComponent } from './view/about-us/about-us.component';
+import { ChanellserviceComponent } from './view/chanellservice/chanellservice.component';
 
 
 const routes: Routes = [
@@ -22,6 +24,14 @@ const routes: Routes = [
   {
     path: 'services',
     component : ManageServicesComponent
+  },
+  {
+    path: 'about',
+    component : AboutUsComponent
+  },
+  {
+    path: 'chservice',
+    component : ChanellserviceComponent
   },
   {
     path: '',
@@ -39,7 +49,9 @@ const routes: Routes = [
     AppComponent,
     ManageCustomersComponent,
     ManageServicesComponent,
-    DashboardComponent
+    DashboardComponent,
+    AboutUsComponent,
+    ChanellserviceComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
