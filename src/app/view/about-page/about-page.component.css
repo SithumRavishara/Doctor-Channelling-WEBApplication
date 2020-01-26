@@ -1,0 +1,31 @@
+.cvr img{
+    height: 450px;
+    margin-left: 5%;
+}
+.para #topic-one{
+    margin-top: 30px;
+ font-size: 30px;
+ font-weight: bolder;
+ color: slateblue;
+}
+.para #topic-two{
+ margin-top: 30px;
+ font-size: 30px;
+ font-weight: bolder;
+ color: slateblue;
+}
+.para #para-1{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.para #para-2{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 10%;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}

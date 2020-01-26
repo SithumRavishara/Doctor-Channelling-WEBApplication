@@ -1,0 +1,38 @@
+<div class="top-nav">
+    <div class="d-flex justify-content-end ">
+      <div class="p-1">
+        <a  href="#">
+          <img src="assets/img/fb.png"  alt="Facebook">
+        </a>
+      </div>
+      <div class="p-1"><a  href="#"><img src="assets/img/in.png"  alt="Linkedin"></a></div>
+      <div class="p-1"><a  href="#"><img src="assets/img/twtr.png"  alt="Twitter"></a></div>
+      <div class="p-1"><a  href="#"><img src="assets/img/wts.png"  alt="Whatsapp"></a></div>
+      <div class="p-1"><a  href="#"><img src="assets/img/yt.png"  alt="Youtube"></a></div>
+    </div>
+</div>
+  <nav class="navbar navbar-expand-sm ">
+    <div class="container-fluid">
+      <a class="navbar-brand col-1.5" href="#"><img src="assets/img/Logo.png" alt="image"></a>
+      <ul class="navbar-nav col-9" id="pag-nav">
+        <li class="nav-item">
+          <a class="nav-link"  routerLink="/about" >ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/counsult-status" ><img src="assets/img/doctor1.png" id="first" alt="image">CONSULTAION ROOM STATUS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="openModalWithComponent()"><img src="assets/img/file.png" id="second"  alt="image">LAB REPORTS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#" id="navbardrop" >
+            <img src="assets/img/handshake.png" id="three" alt="image">
+            PARTNERS AND PROJECTS
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav  navbar-right " id="acc">
+        <li><a (click)="openModalWithComponent()">Login</a></li>
+      </ul>
+    </div>
+  </nav>
