@@ -1,0 +1,13 @@
+.detail {
+    background-color: rgba(175, 119, 228, 0.342);
+    margin-bottom: 0px;
+}
+.detail .p-2 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(130, 198, 236);
+}
+.detail .p-2 p{
+    font-weight: bolder;
+}

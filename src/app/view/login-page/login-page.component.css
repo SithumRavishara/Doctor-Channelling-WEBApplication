@@ -1,0 +1,17 @@
+.card{
+    height: 100px;
+    width: 100px;
+}
+.modal-header{
+    background-color:rgb(86,53,156) ;
+    color: rgb(240, 232, 232);
+}
+.main-body .d-flex{
+}
+.main-body .d-flex #rside{
+    
+}
+.main-body img{
+    width: 100%;
+    height: 100%;
+}

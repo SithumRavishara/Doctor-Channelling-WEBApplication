@@ -1,0 +1,39 @@
+.channel-form form input{
+    margin-left: 30px;
+}
+.channel-form form #doctor{
+    margin-left: 20%;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.channel-form form #doctor span{
+    margin-left: 10px;
+}
+.channel-form form #patient{
+    width: 50%;
+    margin-left: 21%;
+}
+.channel-form form #address{
+    width: 50%;
+    margin-left: 20.5%;
+}
+.channel-form form #email{
+    width: 50%;
+    margin-left: 22%;
+}
+.channel-form form #personal{
+    width: 50%;
+    margin-left: 10.5%;
+}
+.channel-form form #work{
+    width: 50%;
+    margin-left: 12.5%;
+}
+.channel-form form #checkbox{
+margin-top: 30px;
+}
+.channel-form #submit{
+    margin-top: 30px;
+    margin-left: 70%;
+    width: 10%;
+}
